@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+import './style/App.css';
+
+import profileImage from './assets/img/haemin-profile-1.jpeg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <img src={profileImage} alt="profile" width={300} height={300} />
+      </div>
+      <div>To be continued...</div>
     </div>
   );
 }
